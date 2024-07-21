@@ -22,3 +22,5 @@ Run terraform plan to see the configuration it creates when executed.
 
 Finally, Apply terraform configuation to create EKS cluster with VPC
 terraform apply
+
+![image](https://github.com/user-attachments/assets/2be6785b-fe39-416d-a739-3b451d10a34f)
