@@ -31,10 +31,10 @@ spec:
 apiVersion: v1 # Kubernetes API version
 kind: Service # Kubernetes resource kind we are creating
 metadata: # Metadata of the resource kind we are creating
-  name: zomato-svc
+  name: netfilx-svc
 spec:
   selector:
-    app: zomato
+    app: netfilx
   ports:
     - protocol: "TCP"
       port: 3000 # The port that the service is running on in the cluster
